@@ -60,4 +60,5 @@ buck-out/
 
 # Expo
 .expo/*
+.expo/
 web-build/
