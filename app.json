@@ -14,7 +14,6 @@
 			"bundleIdentifier": "com.meals4u",
 			"googleServicesFile": "./GoogleService-Info.plist",
 			"buildNumber": "1.0.0"
-		},
-		"plugins": ["@react-native-firebase/app"]
+		}
 	}
 }
