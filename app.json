@@ -7,11 +7,14 @@
 		"platforms": ["ios", "android", "web"],
 		"android": {
 			"package": "com.meals4u",
+			"googleServicesFile": "./google-services.json",
 			"versionCode": 1
 		},
-		" ios": {
+		"ios": {
 			"bundleIdentifier": "com.meals4u",
+			"googleServicesFile": "./GoogleService-Info.plist",
 			"buildNumber": "1.0.0"
-		}
+		},
+		"plugins": ["@react-native-firebase/app"]
 	}
 }
